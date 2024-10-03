@@ -11,7 +11,7 @@ import base64
 import fitz
 
 import google.generativeai as genai
-GOOGLE_API_KEY="AIzaSyApip install python-dotenvBDIbdBzANkzDB-_MQPx7hTo5XXLVOpas"
+GOOGLE_API_KEY=""
 os.environ["GOOGLE_API_KEY"] = "AIzaSyABDIbdBzANkzDB-_MQPx7hTo5XXLVOpas"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 db_host = os.getenv('DB_HOST')
