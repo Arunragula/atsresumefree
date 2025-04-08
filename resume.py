@@ -12,7 +12,7 @@ import fitz
 
 import google.generativeai as genai
 GOOGLE_API_KEY=""
-os.environ["GOOGLE_API_KEY"] = "AIzaSyABDIbdBzANkzDB-_MQPx7hTo5XXLVOpas"
+os.environ["GOOGLE_API_KEY"] = ""
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 db_host = os.getenv('DB_HOST')
 
